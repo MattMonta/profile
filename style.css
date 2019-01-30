@@ -4,7 +4,12 @@ img {
 }
 
 body{
-  background: #CFD4C5;
+  background: #00416A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(top, #E4E5E6, #00416A);
+  background: -o-linear-gradient(bottom, #E4E5E6, #00416A);
+  background: linear-gradient(to top, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color:  #7d7d7d;
@@ -17,22 +22,27 @@ h1, h2, h3{
 }
 
 h1{
-  color: #8B80F9;
+  color: #101D42;
   font-size: 22px;
 }
 
 h2{
+  color: #3F5080;
   font-size: 18px;
   font-weight: 300;
 }
 
 h3{
+  color: #3F5080;
   font-size: 16px;
   font-weight: 300;
 }
 
+p{
+  color : #3F5080;
+}
 a{
-  color: #ccc;
+  color: #101D42;
   text-decoration: none;
 }
 
@@ -115,13 +125,13 @@ table{
   font-size: 25px;
 }
 .btn-red{
-  background-color: #8B80F9;
+  background-color: #101D42;
   color: white;
   font-weight: 500;
   padding: 10px;
   border-radius: 4px;
 }
 .btn-red:hover{
-  background-color: #C61414;
+  background-color: #DD5555;
   color: white;
 }
