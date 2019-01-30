@@ -17,7 +17,7 @@ h1, h2, h3{
 }
 
 h1{
-  color: #DD5555;
+  color: #6CD4FF;
   font-size: 22px;
 }
 
@@ -115,7 +115,7 @@ table{
   font-size: 25px;
 }
 .btn-red{
-  background-color: #DD5555;
+  background-color: #8B80F9;
   color: white;
   font-weight: 500;
   padding: 10px;
