@@ -38,6 +38,10 @@ h3{
   font-weight: 300;
 }
 
+h3:hover {
+  color: #DD5555;
+}
+
 p{
   color : #3F5080;
 }
@@ -92,6 +96,11 @@ table{
     width: 300px;
   }
 }
+
+.img-movie:hover {
+  box-shadow: 2px 2px 3px 0px rgba(204,110,38,1);
+}
+
 #img-profile{
   width: 100px;
   height: 100px;
